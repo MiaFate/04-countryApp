@@ -3,12 +3,12 @@ import { CountriesService } from '../../services/countries.service';
 import { Country } from '../../interfaces/country.interface';
 
 @Component({
-  selector: 'app-by-country-page',
-  templateUrl: './by-country-page.component.html',
+  selector: 'app-by-name-page',
+  templateUrl: './by-name-page.component.html',
   styles: [
   ]
 })
-export class ByCountryPageComponent implements OnInit {
+export class ByNamePageComponent implements OnInit {
   public isLoading: boolean = false;
   public countries: Country[] = [];
   public initialValue: string = "";
