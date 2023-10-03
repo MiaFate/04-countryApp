@@ -12,7 +12,7 @@ const routes: Routes = [
     component: ByCapitalPageComponent,
   },
   {
-    path: 'by-country',
+    path: 'by-name',
     component: ByNamePageComponent,
   },
   {
